@@ -37,6 +37,19 @@ export function MyAssistant() {
 
   return (
     <Thread
+      welcome={{
+        suggestions: [
+          {
+            prompt: "How is John Doe Doing on the 18th of June 2024?",
+          },
+          {
+            prompt: "How is Brian Stone doing on June 21, 2023?",
+          },
+          {
+            prompt: "can you compare John Doe's state between today (18th of June 2024) and his pre-op on the 18th of March 2024?",
+          },
+        ],
+      }}
       runtime={runtime}
       assistantMessage={{ components: { Text: MarkdownText } }}
     />

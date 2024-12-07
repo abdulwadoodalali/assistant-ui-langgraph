@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+    --aui-background: 210 9% 15%;
+    --aui-foreground: 0 0% 98%;
+  
+    --aui-card: 210 9% 15%;
+    --aui-card-foreground: 0 0% 100%;
+  
+    --aui-popover: 210 9% 15%;
+    --aui-popover-foreground: 0 0% 98%;
+  
+    --aui-primary: 210 8% 11%;
+    --aui-primary-foreground: 0 0% 98%;
+  
+    --aui-secondary: 210 9% 15%;
+    --aui-secondary-foreground: 0 0% 98%;
+  
+    --aui-muted: 210 8% 11%;
+    --aui-muted-foreground: 0 5% 64.9%;
+  
+    --aui-accent: 210 9% 15%;
+    --aui-accent-foreground: 0 0% 98%;
+  
+    --aui-destructive: 0 62.8% 30.6%;
+    --aui-destructive-foreground: 0 0% 98%;
+  
+    --aui-border: 210 8% 11%;
+    --aui-input: 210 8% 11%;
+    --aui-ring: 240 4.9% 83.9%;
+
+  --aui-radius: 0.5rem;
+}
+
+.dark {
+  --aui-background: 0 0% 7%;
+  --aui-foreground: 0 0% 98%;
+
+  --aui-card: 240 10% 3.9%;
+  --aui-card-foreground: 0 0% 98%;
+
+  --aui-popover: 240 10% 3.9%;
+  --aui-popover-foreground: 0 0% 98%;
+
+  --aui-primary: 0 0% 98%;
+  --aui-primary-foreground: 240 5.9% 10%;
+
+  --aui-secondary: 240 3.7% 15.9%;
+  --aui-secondary-foreground: 0 0% 98%;
+
+  --aui-muted: 210 8% 11%;
+  --aui-muted-foreground: 240 5% 64.9%;
+
+  --aui-accent: 240 3.7% 15.9%;
+  --aui-accent-foreground: 0 0% 98%;
+
+  --aui-destructive: 0 62.8% 30.6%;
+  --aui-destructive-foreground: 0 0% 98%;
+
+  --aui-border: 240 3.7% 15.9%;
+  --aui-input: 240 3.7% 15.9%;
+  --aui-ring: 240 4.9% 83.9%;
+}

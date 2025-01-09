@@ -48,6 +48,9 @@ export function MyAssistant() {
           {
             prompt: "can you compare John Doe's state between today (18th of June 2024) and his pre-op on the 18th of March 2024?",
           },
+          {
+            prompt: "Taking into consideration the data for John Doe since his admission on the 14th of June up until his last day, give me a daily summary to ICD billing codes, along with a full summary of their journey with a final ICD codes for the full stay.",
+          },
         ],
       }}
       runtime={runtime}
